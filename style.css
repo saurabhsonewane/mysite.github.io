@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(#7F7FD5,#86A8E7,#91EAE4);
+
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.main{
+    width: 70%;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.253);
+    border-radius: 2rem;
+}
+
+.container, .row{
+    height: 70vh;
+}
+
+
+
+.none{
+    display: none;
+}
+.mskill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar{
+    background-color: transparent !important;
+}
+.navbar-nav{
+    margin: auto;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.animate__animated0, .animate__animated1, .animate__animated2{
+    display: none;
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.fade-in{
+    opacity: 1;
+    pointer-events: all;
+}
+.fade-out{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#project a{
+    text-decoration: none;
+    padding: 2px;
+    color: black;
+}
